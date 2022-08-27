@@ -1,0 +1,48 @@
+:root {
+    --button-blue: rgb(45, 97, 255);
+    --font-color-base: rgb(107, 123, 138);
+    --font-color-dark: rgb(16, 16, 16);
+    --font-color-light: gray;
+    --font-color-link: var(--button-blue);
+    --hire-us-bg: rgb(22, 52, 111);
+
+    --size-10: 0.625rem;
+    --size-12: 0.75rem;
+    --size-14: 0.875rem;
+    --size-16: 1rem;
+    --size-18: 1.125rem;
+    --size-20: 1.25rem;
+    --size-30: 1.875rem;
+    --size-40: 2.5rem;
+    --size-50: 3.125rem;
+    --size-100: 6.25rem;
+    --size-150: 9.375rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color-link);
+}
+
+body {
+    max-width: 1024px;
+    margin: auto;
+    color: var(--font-color-base);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h3, h4 {
+    color: var(--font-color-dark);
+}
+
+.button {
+    color: white;
+    background: var(--button-blue);
+    padding: var(--size-14) 1.563rem;
+    border-radius: 100px;
+    font-size: var(--size-12);
+}

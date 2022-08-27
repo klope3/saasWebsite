@@ -32,7 +32,11 @@ body {
     max-width: 1024px;
     margin: auto;
     color: var(--font-color-base);
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: var(--size-40);
 }
 
 h3, h4 {

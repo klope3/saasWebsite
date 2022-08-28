@@ -32,3 +32,52 @@ nav, nav ul {
     /* temp color for dev purposes */
     padding: 20px;
 }
+
+.diffPerspective {
+    background-color: var(--diff-perspective-bg);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    height: 25rem;
+    justify-content: end;
+    align-items: center;
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.bannerOne {
+    background-image: url("./saas-project-assets/banners/banner_one.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    top: 100px;
+}
+
+.whyFront {
+    text-align: center;
+}
+
+.whyFrontDots, .whyFrontLabels {
+    display: flex;
+    justify-content: center;
+    max-width: 765px;
+    margin: auto;
+    align-items: center;
+}
+
+#whyFrontLabels {
+    gap: var(--size-100);
+}
+
+.circle {
+    width: var(--size-50);
+    height: var(--size-50);
+    background: gray;
+    border-radius: 50%;
+}
+
+.horzLine {
+    height: 1rem;
+    background: gray;
+    flex: 1;
+}

@@ -145,3 +145,82 @@ nav, nav ul {
     color: var(--font-color-base);
     font-weight: 700;
 }
+
+.trusted {
+    margin-top: 110px;
+}
+
+.trusted h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: var(--size-20);
+    color: var(--font-color-base);
+    margin-bottom: 40px;
+}
+
+.trusted div {
+    display: flex;
+    gap: 80px;
+}
+
+.trusted img {
+    display: block;
+    width: 1px;
+    flex: 1;
+}
+
+.pricing {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.pricing h3 {
+    font-size: var(--size-30);
+    margin-bottom: 10px;
+}
+
+.pricingMainContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    gap: 50px;
+}
+
+.pricingRateCard {
+    text-align: left;
+    flex: 2;
+    padding: 66px 46px;
+    box-shadow: 0px 10px 20px lightgrey;
+}
+
+.pricingRateCard strong {
+    font-size: var(--size-50);
+    font-weight: 100;
+    color: var(--font-color-dark);
+}
+
+.pricingRateCard hr {
+    margin: 30px 0px;
+}
+
+.pricingRateCard p {
+    margin-bottom: 60px;
+}
+
+.noCreditCard {
+    display: block;
+    margin-top: 20px;
+    font-size: var(--size-12);
+}
+
+.pricingGrid {
+    flex: 5;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    text-align: left;
+    gap: 35px;
+}
+
+.pricingGrid img {
+    width: 50px;
+}

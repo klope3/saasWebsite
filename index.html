@@ -172,31 +172,62 @@
         </div>
     </div>
 
-    <div>
+    <div class="hireUs">
         <!-- Hire Us -->
-        <div>
+        <div class="hireUsLeftSide">
             <!-- Left side -->
             <h3>Hire Us</h3>
-            <p>Whatever your goal - <br>
+            <p class="hireUsPromise">Whatever your goal - <br>
             we will get you there</p>
-            <div>
-                <hr>
-            </div>
+            <hr>
             <p>"I love front! I love the ease of use, I love the fact that I have total creative freedom..."</p>
-            <div class="quoteCite">
+            <div class="quoteCite" id="hireUsQuote">
                 <strong>Charlotte Moore</strong>
                 <span>Head of Commercials, Slack</span>
             </div>
-            <div>
-                <!-- Client images -->
+            <div class="hireUsPortraitRow">
+                <img src="./saas-project-assets/people/woman_two.jpg" alt="Portrait" class="hireUsPortrait">
+                <img src="./saas-project-assets/people/woman_one.jpg" alt="Portrait" class="hireUsPortrait">
+                <img src="./saas-project-assets/people/man_one.jpg" alt="Portrait" class="hireUsPortrait" id="hireUsPortraitBig">
             </div>
         </div>
-        <div>
+        <div class="hireUsFormContainer">
             <!-- Right side -->
             <h4>Fill out the form and we'll be in touch as soon as possible</h4>
             <form action="">
+                <div class="hireUsFormGrid">
+                    <label for="firstName1">Person 1 First Name</label>
+                    <input type="text" name="firstName1" id="firstName1" placeholder="First Name">
+                    <label for="lastName1">Person 1 Last Name</label>
+                    <input type="text" name="lastName1" id="lastName1" placeholder="Last Name">
+                    <label for="firstName2">Person 2 First Name</label>
+                    <input type="text" name="firstName2" id="firstName2" placeholder="First Name">
+                    <label for="lastName2">Person 2 Last Name</label>
+                    <input type="text" name="lastName2" id="lastName2" placeholder="Last Name">
+                    <label for="budget">Budget</label>
+                    <select name="budget" id="budget">
+                        <option value="" disabled selected hidden>Budget</option>
+                        <option value="budgetOption1">Option 1</option>
+                        <option value="budgetOption2">Option 2</option>
+                        <option value="budgetOption3">Option 3</option>
+                    </select>
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="" disabled selected hidden>Country</option>
+                        <option value="country1">Country 1</option>
+                        <option value="country2">Country 2</option>
+                        <option value="country3">Country 3</option>
+                    </select>
+                    <label for="formMessage">Message</label>
+                    <textarea name="formMessage" id="formMessage" cols="30" rows="10" placeholder="Tell us more about your project, needs, and timeline please..."></textarea>
+                </div>
+                <div class="optOutContainer">
+                    <input type="checkbox" name="emailOptOut" id="emailOptOut">
+                    <label for="emailOptOut">Yes, I'd like to receive occasional marketing emails from front. I have the right to opt out at any time.</label>
+                </div>
                 <a href="#">Vew privacy policy</a>
                 <a href="#">Vew privacy policy</a>
+                <br>
                 <input type="submit" value="Get Started" class="button">
             </form>
         </div>

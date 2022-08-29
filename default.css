@@ -41,6 +41,10 @@ h2 {
     font-size: var(--size-40);
 }
 
+h3 {
+    font-size: var(--size-30);
+}
+
 h3, h4 {
     color: var(--font-color-dark);
 }

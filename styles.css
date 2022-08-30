@@ -318,3 +318,50 @@ nav, nav ul {
 .hireUsFormContainer input[type="submit"] {
     margin-top: 41px;
 }
+
+.bottomLinkBar {
+    display: flex;
+    gap: 70px;
+    line-height: 30px;
+    margin-top: 50px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 34px;
+    padding-bottom: 10px;
+}
+
+.bottomLinkBar h4 {
+    margin-top: 0;
+}
+
+.frontLogo {
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footerLinkBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialButton {
+    background: lightgray;
+    color: var(--font-color-base);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.socialButton i {
+    width: 15px;
+    height: 15px;
+}
+
+.footerLegal {
+    text-align: center;
+    font-size: var(--size-14);
+    max-width: 678px;
+    margin: 60px auto;
+    margin-bottom: 0;
+}

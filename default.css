@@ -21,6 +21,10 @@
     --size-150: 9.375rem;
 }
 
+ul {
+    padding: 0;
+}
+
 li {
     list-style: none;
 }

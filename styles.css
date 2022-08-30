@@ -1,3 +1,14 @@
+/* #region Nav, Header */
+.frontLogo {
+    display: block;
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
 nav, nav ul {
     display: flex;
     align-items: center;
@@ -11,7 +22,8 @@ nav, nav ul {
 .playVideoRow {
     margin: 20px 0px;
 }
-
+/* #endregion */
+/* #region Key Benefits */
 .keyBenefits {
     text-align: center;
     margin-top: 250px;
@@ -28,11 +40,10 @@ nav, nav ul {
 }
 
 .keyBenefitsCards > div {
-    background: cyan;
-    /* temp color for dev purposes */
     padding: 20px;
 }
-
+/* #endregion */
+/* #region Different Perspectives */
 .diffPerspective {
     background-color: var(--diff-perspective-bg);
     display: grid;
@@ -52,7 +63,8 @@ nav, nav ul {
     position: relative;
     top: 100px;
 }
-
+/* #endregion */
+/* #region Why Front */
 .whyFront {
     text-align: center;
 }
@@ -69,7 +81,7 @@ nav, nav ul {
     gap: var(--size-100);
 }
 
-.circle {
+.whyFrontCircle {
     width: var(--size-50);
     height: var(--size-50);
     background: gray;
@@ -79,9 +91,9 @@ nav, nav ul {
 .horzLine {
     height: 1rem;
     background: gray;
-    flex: 1;
 }
-
+/* #endregion */
+/* #region Video Banner */
 .bannerTwo {
     margin-top: 200px;
 }
@@ -98,7 +110,9 @@ nav, nav ul {
     position: relative;
 }
 
-#bannerTwoCircle {
+.bannerTwoCircle {
+    background: gray;
+    border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -115,7 +129,8 @@ nav, nav ul {
     position: relative;
     left: 2px;
 }
-
+/* #endregion */
+/* #region HubSpot Testimonial */
 .testimonial1 {
     display: flex;
     gap: 50px;
@@ -134,18 +149,8 @@ nav, nav ul {
 #hubSpot {
     width: 100px;
 }
-
-.quoteCite strong {
-    font-size: var(--size-16)
-}
-
-.quoteCite span {
-    display: block;
-    font-size: var(--size-14);
-    color: var(--font-color-base);
-    font-weight: 700;
-}
-
+/* #endregion */
+/* #region Trusted By Companies */
 .trusted {
     margin-top: 110px;
 }
@@ -166,16 +171,15 @@ nav, nav ul {
 .trusted img {
     display: block;
     width: 1px;
-    flex: 1;
 }
-
+/* #endregion */
+/* #region Pricing */
 .pricing {
     text-align: center;
     margin-top: 100px;
 }
 
 .pricing h3 {
-    /* font-size: var(--size-30); */
     margin-bottom: 10px;
 }
 
@@ -224,7 +228,8 @@ nav, nav ul {
 .pricingGrid img {
     width: 50px;
 }
-
+/* #endregion */
+/* #region Hire Us */
 .hireUs {
     background: var(--hire-us-bg);
     display: flex;
@@ -318,7 +323,8 @@ nav, nav ul {
 .hireUsFormContainer input[type="submit"] {
     margin-top: 41px;
 }
-
+/* #endregion */
+/* #region Bottom Area and Footer */
 .bottomLinkBar {
     display: flex;
     gap: 70px;
@@ -333,10 +339,8 @@ nav, nav ul {
     margin-top: 0;
 }
 
-.frontLogo {
-    display: block;
+#frontLogoBottom {
     width: 100px;
-    margin-bottom: 10px;
 }
 
 .footerLinkBar {
@@ -365,3 +369,4 @@ nav, nav ul {
     margin: 60px auto;
     margin-bottom: 0;
 }
+/* #endregion */

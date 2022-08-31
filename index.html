@@ -130,6 +130,7 @@
     <div class="testimonial1">
         <!-- Testimonial -->
         <img src="./saas-project-assets/people/woman_three.jpg" alt="">
+        <img src="./saas-project-assets/abstract/dots.svg" alt="Dots" id="testimonialDots">
         <div>
             <img src="./saas-project-assets/company_logos/hubspot.svg" alt="HubSpot" id="hubSpot">
             <p>The template is really nice and offers quite a large set of options. It's beautiful and the coding is done quickly and seamlessly. Thank you!</p>
@@ -161,7 +162,7 @@
                 <span><strong>59</strong> / mo</span>
                 <hr>
                 <p>Start your Front business now. 100% guaranteed money back. No questions asked.</p>
-                <a href="#" class="button">Play Video</a>
+                <a href="#" class="button"><i class="fa-solid fa-circle-play"></i>Play Video</a>
                 <span class="noCreditCard">No credit card required.</span>
             </div>
             <div class="pricingGrid">
@@ -239,12 +240,17 @@
                     <label for="formMessage">Message</label>
                     <textarea name="formMessage" id="formMessage" cols="30" rows="10" placeholder="Tell us more about your project, needs, and timeline please..."></textarea>
                 </div>
-                <div class="optOutContainer">
-                    <input type="checkbox" name="emailOptOut" id="emailOptOut">
-                    <label for="emailOptOut">Yes, I'd like to receive occasional marketing emails from front. I have the right to opt out at any time.</label>
+                <label for="optOut" class="checkboxContainer" id="optOutContainer">
+                    <input type="checkbox" name="optOut" id="optOut">
+                    <span class="checkbox"><span>&#10003</span></span>
+                    <div>
+                        Yes, I'd like to receive occasional marketing emails from front. I have the right to opt out at any time.
+                    </div>
+                </label>
+                <div class="policyRow">
+                    <a href="#">Vew privacy policy</a>
+                    <a href="#">Vew privacy policy</a>
                 </div>
-                <a href="#">Vew privacy policy</a>
-                <a href="#">Vew privacy policy</a>
                 <br>
                 <input type="submit" value="Get Started" class="button">
             </form>
@@ -253,16 +259,16 @@
 
     <div class="bottomLinkBar">
         <!-- Contact and links -->
-        <div>
-            <img src="./saas-project-assets/project_logo/logo.svg" alt="Front" class="frontLogo">
-            <span>153 Williamson Plaza, Maggieberg</span><br>
-            <span>+1 (062) 109-9222</span>
+        <div class="contact">
+            <img src="./saas-project-assets/project_logo/logo.svg" alt="Front" class="frontLogo" id="frontLogoBottom">
+            <a href=""><i class="fa-solid fa-location-arrow"></i>153 Williamson Plaza, Maggieberg</a><br>
+            <a href=""><i class="fa-solid fa-phone"></i>+1 (062) 109-9222</a>
         </div>
         <div>
             <h4>Company</h4>
             <ul>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Career</a></li>
+                <li><a href="#">Career</a><span class="wereHiring">We're hiring</span></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Customers</a></li>
                 <li><a href="#">Hire us</a></li>
@@ -287,11 +293,11 @@
                 <li><a href="#">Tech Requirements</a></li>
             </ul>
         </div>
-        <div>
+        <div class="resources">
             <h4>Resources</h4>
             <ul>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Your Account</a></li>
+                <li><a href="#"><i class="fa-solid fa-circle-info"></i>Help</a></li>
+                <li><a href="#"><i class="fa-solid fa-circle-user"></i>Your Account</a></li>
             </ul>
         </div>
     </div>
@@ -310,7 +316,7 @@
                 <a href="#" class="socialButton"><i class="fa-brands fa-google"></i></a>
                 <a href="#" class="socialButton"><i class="fa-brands fa-twitter"></i></a>
                 <a href="#" class="socialButton"><i class="fa-brands fa-github"></i></a>
-                <select name="country" id="country">
+                <select name="country" id="country" class="countryDropdown">
                     <option value="unitedStates">United States</option>
                     <option value="unitedStates">United Kingdom</option>
                     <option value="unitedStates">Mexico</option>

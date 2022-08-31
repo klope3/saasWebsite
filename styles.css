@@ -204,33 +204,59 @@ nav, nav ul {
     text-align: center;
 }
 
+.whyFront h3 {
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.whyFront p {
+    max-width: 520px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
 .whyFrontDots, .whyFrontLabels {
     display: flex;
     justify-content: center;
-    max-width: 765px;
+    width: 70%;
     margin: auto;
     align-items: center;
+    gap: 3px;
 }
 
 #whyFrontLabels {
-    gap: var(--size-100);
+    gap: 92px;
+    width: 76%;
+    margin-top: 30px;
+    color: var(--font-color-dark);
+    font-weight: 700;
 }
 
 .whyFrontCircle {
     width: var(--size-50);
     height: var(--size-50);
-    background: gray;
+    background: var(--why-front-light);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whyFrontCircle div {
+    width: 0.35rem;
+    height: 0.35rem;
+    background: var(--why-front-dark);
     border-radius: 50%;
 }
 
 .horzLine {
-    height: 1rem;
-    background: gray;
+    height: 0.1rem;
+    background: var(--why-front-light);
 }
 /* #endregion */
 /* #region Video Banner */
 .bannerTwo {
-    margin-top: 200px;
+    margin-top: 95px;
 }
 
 .bannerTwo img {
@@ -275,6 +301,7 @@ nav, nav ul {
     font-size: var(--size-20);
     align-items: center;
     color: var(--font-color-dark);
+    position: relative;
 }
 
 .testimonial1 img {
@@ -283,6 +310,14 @@ nav, nav ul {
 
 #hubSpot {
     width: 100px;
+}
+
+#testimonialDots {
+    position: absolute;
+    z-index: -1;
+    left: -57px;
+    width: 203px;
+    top: 119px;
 }
 /* #endregion */
 /* #region Trusted By Companies */
@@ -420,42 +455,74 @@ nav, nav ul {
     flex: 3;
     text-align: center;
     padding: 33px;
+    border-radius: 10px;
+    font-size: var(--size-14);
+    line-height: 1.4rem;
 }
 
-.hireUsFormContainer label {
+.hireUsFormContainer h4 {
+    text-align: left;
+}
+
+.hireUsFormGrid label {
     display: none;
 }
 
-.hireUsFormGrid{
+.hireUsFormGrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, 194px);
     justify-content: center;
     gap: 10px;
 }
 
-.hireUsFormContainer input,
-.hireUsFormContainer select, 
-.hireUsFormContainer textarea {
-    padding: 10px;
+.hireUsFormGrid input,
+.hireUsFormGrid select, 
+.hireUsFormGrid textarea {
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
 }
 
 .hireUsFormContainer textarea {
     grid-column: 1 / 3;
 }
 
-.optOutContainer {
+/* .optOutContainer {
     display: flex;
     align-items: baseline;
     margin: 20px 0px;
-}
+} */
 
 .optOutContainer label {
     display: block;
     text-align: left;
 }
 
+#optOutContainer {
+    margin-top: 20px;
+}
+
 .hireUsFormContainer input[type="submit"] {
-    margin-top: 41px;
+    margin-top: 10px;
+    border: 0px;
+}
+
+.policyRow {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 20px;
+}
+
+.policyRow a {
+    color: var(--font-color-base);
+    font-weight: 700;
+    text-decoration: dotted underline;
+    text-underline-offset: 0.2rem;
+}
+
+.policyRow a:hover {
+    color: var(--font-color-link);
 }
 /* #endregion */
 /* #region Bottom Area and Footer */
@@ -477,13 +544,43 @@ nav, nav ul {
     width: 100px;
 }
 
+.contact i {
+    width: 22px;
+    font-size: var(--size-14);
+}
+
+.wereHiring {
+    font-size: var(--size-8);
+    color: white;
+    background: var(--font-color-link);
+    border-radius: 3px;
+    padding: 4px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.resources i {
+    font-size: var(--size-12);
+    margin-right: 5px;
+}
+
+.bottomLinkBar a, 
+.footerLinkBar a {
+    color: var(--font-color-base);
+}
+
+.bottomLinkBar a:hover, 
+.footerLinkBar a:hover {
+    color: var(--font-color-link);
+}
+
 .footerLinkBar {
     display: flex;
     justify-content: space-between;
 }
 
 .socialButton {
-    background: lightgray;
+    background: var(--social-button-light);
     color: var(--font-color-base);
     padding: 10px;
     border-radius: 5px;
@@ -491,9 +588,24 @@ nav, nav ul {
     margin: 0px 10px;
 }
 
+.socialButton:hover {
+    background: var(--font-color-base);
+}
+
+.socialButton:hover i {
+    color: var(--social-button-light);
+}
+
 .socialButton i {
     width: 15px;
     height: 15px;
+}
+
+.countryDropdown {
+    background: var(--social-button-light);
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
 }
 
 .footerLegal {

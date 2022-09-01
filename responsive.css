@@ -1,0 +1,59 @@
+@media screen and (max-width: 1024px) {
+    nav {
+        align-items: baseline;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        line-height: 2.5em;
+        text-align: right;
+        padding: 0px 17px;
+        background: white;
+        padding-bottom: 8px;
+        padding-right: 20px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 43px;
+    }
+
+    nav .button {
+        position: relative;
+        left: 8px;
+    }
+
+    .hamburgerMenu ~ label {
+        display: block;
+        font-size: var(--size-25);
+        position: relative;
+        top: -26px;
+    }
+
+    .hamburgerMenu:checked ~ ul {
+        display: block;
+    }
+    
+    .empoweringContainer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+        height: 660px;
+        gap: 0%;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .empoweringRight {
+        left: -39px;
+    }
+
+    .playVideoRow {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #atlassianCircle {
+        left: 50%;
+    }
+}

@@ -11,52 +11,54 @@
     <script src="https://kit.fontawesome.com/a66da64dda.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <!-- Top bar (logo, nav) -->
-        <a href="#" class="flex-1">
-            <img src="./saas-project-assets/project_logo/logo.svg" alt="Front" class="frontLogo">
-        </a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Learn</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Hire Us</a></li>
-        </ul>
-        <a href="#" class="button">Buy Now</a>
-    </nav>
+    <div class="navContainer" id="navContainer">
+        <nav>
+            <a href="#" class="flex-1">
+                <img src="./saas-project-assets/project_logo/logo.svg" alt="Front" class="frontLogo">
+            </a>
+            <input type="checkbox" class="hamburgerMenu" id="hamburgerMenu">
+            <label for="hamburgerMenu">☰</label>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Hire Us</a></li>
+                <li><a href="#" class="button">Buy Now</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <header>
-        <!-- Empowering section -->
         <div class="empoweringContainer">
-            <h2>Empowering teams with the freedom</h2>
-            <span>Own the unlimited power of the web development</span>
-            <div class="playVideoRow">
-                <a href="#" class="button">
-                    <i class="fa-solid fa-circle-play"></i>Play Video</a>
-                <a href="#" class="learnMore">Learn More</a>
+            <div class="empoweringLeft">
+                <h2>Empowering teams with the freedom</h2>
+                <span>Own the unlimited power of the web development</span>
+                <div class="playVideoRow">
+                    <a href="#" class="button">
+                        <i class="fa-solid fa-circle-play"></i>Play Video</a>
+                    <a href="#" class="learnMore">Learn More</a>
+                </div>
+            </div>
+            <div class="empoweringRight">
+                <div class="shadowCircle biggerCircle" id="asanaCircle"><img src="./saas-project-assets/logo_icons/asana.png" alt="Asana"></div>
+                <div class="shadowCircle biggerCircle" id="atlassianCircle"><img src="./saas-project-assets/logo_icons/atlassian.png" alt="Atlassian"></div>
+                <div class="shadowCircle biggerCircle" id="calendarCircle"><img src="./saas-project-assets/logo_icons/calendar.png" alt="Calendar"></div>
+                <div class="shadowCircle" id="googleACircle"><img src="./saas-project-assets/logo_icons/google-A.png" alt="Google-A"></div>
+                <div class="shadowCircle" id="googleCircle"><img src="./saas-project-assets/logo_icons/google.png" alt="Google"></div>
+                <div class="shadowCircle biggerCircle" id="paypalCircle"><img src="./saas-project-assets/logo_icons/paypal.jpg" alt="Paypal"></div>
+                <div class="shadowCircle biggerCircle" id="weaveCircle"><img src="./saas-project-assets/logo_icons/weave.png" alt="Weave"></div>
             </div>
         </div>
         <div class="headerBg">
             <div><div></div></div>
         </div>
-        <div class="headerCompanies">
-            <div class="shadowCircle biggerCircle" id="asanaCircle"><img src="./saas-project-assets/logo_icons/asana.png" alt="Asana"></div>
-            <div class="shadowCircle biggerCircle" id="atlassianCircle"><img src="./saas-project-assets/logo_icons/atlassian.png" alt="Atlassian"></div>
-            <div class="shadowCircle biggerCircle" id="calendarCircle"><img src="./saas-project-assets/logo_icons/calendar.png" alt="Calendar"></div>
-            <div class="shadowCircle" id="googleACircle"><img src="./saas-project-assets/logo_icons/google-A.png" alt="Google-A"></div>
-            <div class="shadowCircle" id="googleCircle"><img src="./saas-project-assets/logo_icons/google.png" alt="Google"></div>
-            <div class="shadowCircle biggerCircle" id="paypalCircle"><img src="./saas-project-assets/logo_icons/paypal.jpg" alt="Paypal"></div>
-            <div class="shadowCircle biggerCircle" id="weaveCircle"><img src="./saas-project-assets/logo_icons/weave.png" alt="Weave"></div>
-        </div>
     </header>
 
-    <div class="keyBenefits">
-        <!-- Key Benefits -->
+    <!-- <div class="keyBenefits">
         <h3>Key Benefits</h3>
         <span>Design faster with a growing array of beautiful templates</span>
         <div class="keyBenefitsCards">
-            <!-- Cards -->
             <div class="cardShadow">
                 <img src="./saas-project-assets/icons/responsive.svg" alt="Responsive">
                 <h4>Responsive</h4>
@@ -82,22 +84,19 @@
                 <a href="#" class="learnMore">Learn more</a>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="diffPerspective">
-        <!-- "Different Prospective" section -->
+    <!-- <div class="diffPerspective">
         <div class="diffPerspectiveLeft">
             <h3>Front makes you look at things from a different prospectives</h3>
             <a href="#" class="button">
                 <i class="fa-solid fa-circle-play"></i>Play Video</a>
         </div>
         <div class="bannerOne">
-            <!-- Screenshot -->
         </div>
-    </div>
+    </div> -->
 
-    <div class="whyFront">
-        <!-- Why Front -->
+    <!-- <div class="whyFront">
         <h3>Why front?</h3>
         <p>Front is an incredibly beautiful, fully responsive, and mobile-first projects on the web - it is the starting point for creative sites</p>
         <div class="whyFrontDots">
@@ -115,20 +114,18 @@
             <div>Combined components</div>
             <div>Page layouts</div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="bannerTwo">
-        <!-- embedded video -->
+    <!-- <div class="bannerTwo">
         <button>
             <img src="./saas-project-assets/banners/banner_two.jpg" alt="">
             <div class="bannerTwoCircle">
                 <i class="fa-solid fa-play"></i>
             </div>
         </button>
-    </div>
+    </div> -->
 
-    <div class="testimonial1">
-        <!-- Testimonial -->
+    <!-- <div class="testimonial1">
         <img src="./saas-project-assets/people/woman_three.jpg" alt="">
         <img src="./saas-project-assets/abstract/dots.svg" alt="Dots" id="testimonialDots">
         <div>
@@ -139,10 +136,9 @@
                 <span>Executive Director</span>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="trusted">
-        <!-- Trusted by companies -->
+    <!-- <div class="trusted">
         <h3>Trusted by World's Best</h3>
         <div>
             <img src="./saas-project-assets/company_logos/weebly.svg" alt="Weebly" class="flex-1">
@@ -151,10 +147,9 @@
             <img src="./saas-project-assets/company_logos/airbnb.svg" alt="Airbnb" class="flex-1">
             <img src="./saas-project-assets/company_logos/slack.svg" alt="Slack" class="flex-1">
         </div>
-    </div>
+    </div> -->
 
-    <div class="pricing">
-        <!-- Pricing -->
+    <!-- <div class="pricing">
         <h3>Pricing</h3>
         <span>No additional costs. Pay for what you use</span>
         <div class="pricingMainContainer">
@@ -166,7 +161,6 @@
                 <span class="noCreditCard">No credit card required.</span>
             </div>
             <div class="pricingGrid">
-                <!-- Grid layout -->
                 <div>
                     <img src="./saas-project-assets/icons/components.svg" alt="Puzzle">
                     <h4>Hundreds of components</h4>
@@ -189,12 +183,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="hireUs">
-        <!-- Hire Us -->
+    <!-- <div class="hireUs">
         <div class="hireUsLeftSide">
-            <!-- Left side -->
             <h3>Hire Us</h3>
             <p class="hireUsPromise">Whatever your goal - <br>
             we will get you there</p>
@@ -211,7 +203,6 @@
             </div>
         </div>
         <div class="hireUsFormContainer">
-            <!-- Right side -->
             <h4>Fill out the form and we'll be in touch as soon as possible</h4>
             <form action="">
                 <div class="hireUsFormGrid">
@@ -255,10 +246,9 @@
                 <input type="submit" value="Get Started" class="button">
             </form>
         </div>
-    </div>
+    </div> -->
 
-    <div class="bottomLinkBar">
-        <!-- Contact and links -->
+    <!-- <div class="bottomLinkBar">
         <div class="contact">
             <img src="./saas-project-assets/project_logo/logo.svg" alt="Front" class="frontLogo" id="frontLogoBottom">
             <a href=""><i class="fa-solid fa-location-arrow"></i>153 Williamson Plaza, Maggieberg</a><br>
@@ -300,9 +290,9 @@
                 <li><a href="#"><i class="fa-solid fa-circle-user"></i>Your Account</a></li>
             </ul>
         </div>
-    </div>
+    </div> -->
 
-    <footer>
+    <!-- <footer>
         <div class="footerLinkBar">
             <div>
                 <a href="#">Privacy & Policy</a>
@@ -327,6 +317,20 @@
             <p>© Front. 2022 Responsive designs. All rights reserved.</p>
             <p>When you visit or interact with our sites, services or tools, we or our authorized service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.</p>
         </div>
-    </footer>
+    </footer> -->
+
+    <script>
+        const nav = document.getElementById("navContainer");
+        window.onscroll = function () {
+            if (window.pageYOffset > 20) 
+            {
+                nav.classList.add("navContainerSolid");
+            }
+            else
+            {
+                nav.classList.remove("navContainerSolid");
+            }
+        }
+    </script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     nav {
         align-items: baseline;
     }
@@ -50,10 +50,51 @@
     .playVideoRow {
         justify-content: center;
     }
+
+    .keyBenefits {
+        margin-top: 137px;
+    }
+
+    .keyBenefitsCards {
+        max-width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .diffPerspective {
+        padding: 0px 30px;
+        min-height: 30rem;
+    }
+
+    .diffPerspectiveGrid {
+        grid-template-columns: 1fr;
+        max-width: 630px;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .diffPerspectiveLeft {
+        width: 100%;
+        margin: auto;
+    }
+
+    .bannerOne {
+        /* left: 0; */
+        /* right: 0; */
+        /* position: absolute; */
+        left: 0;
+        width: 130%;
+        top: 10%;
+        justify-self: center;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     #atlassianCircle {
         left: 50%;
+    }
+
+    .keyBenefitsCards {
+        grid-template-columns: 1fr;
     }
 }

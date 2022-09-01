@@ -192,7 +192,7 @@ header {
 
 .keyBenefitsCards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 13.8rem);
+    grid-template-columns: repeat(auto-fill, 13.7rem);
     text-align: left;
     gap: 34px;
     justify-content: center;
@@ -216,13 +216,18 @@ header {
 /* #region Different Perspectives */
 .diffPerspective {
     background-color: var(--diff-perspective-bg);
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 500px);
     height: 25rem;
-    justify-content: end;
-    align-items: center;
     margin-top: 70px;
     overflow: hidden;
+    position: relative;
+}
+
+.diffPerspectiveGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 476px);
+    justify-content: end;
+    align-items: center;
+    height: 100%;
 }
 
 .diffPerspective h3 {
@@ -233,13 +238,14 @@ header {
     width: 420px;
 }
 
-.bannerOne {
-    background-image: url("./saas-project-assets/banners/banner_one.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100%;
+.bannerOne { 
     position: relative;
-    top: 100px;
+    top: 68px;
+    width: 100%;
+    position: relative;
+    width: 556px;
+    left: -32px;
+    top: 30%;
 }
 /* #endregion */
 /* #region Why Front */

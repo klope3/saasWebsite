@@ -1,4 +1,4 @@
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     nav {
         align-items: baseline;
     }
@@ -79,9 +79,6 @@
     }
 
     .bannerOne {
-        /* left: 0; */
-        /* right: 0; */
-        /* position: absolute; */
         left: 0;
         width: 130%;
         top: 10%;

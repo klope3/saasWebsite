@@ -87,6 +87,75 @@
         top: 10%;
         justify-self: center;
     }
+
+    .testimonial1 {
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        max-width: 614px;
+        margin-top: 75px;
+    }
+
+    .testimonial1ImgContainer {
+        position: relative;
+    }
+
+    .testimonial1ImgContainer img {
+        width: 60%;
+    }
+
+    #testimonialDots {
+        left: 12%;
+        width: 30%;
+        top: 30%;
+    }
+
+    .pricingMainContainer {
+        flex-direction: column;
+    }
+
+    .pricingRateCard {
+        width: 80%;
+        text-align: center;
+    }
+
+    .pricingRateCard p {
+        text-align: left;
+    }
+
+    .pricingGrid {
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+    }
+
+    .hireUs {
+        flex-direction: column;
+        align-items: unset;
+        padding: 35px;
+        gap: 30px;
+    }
+
+    .hireUsLeftSide {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+    }
+
+    .hireUsHeadingContainer {
+        width: 60%;
+    }
+
+    .hireUsPromise {
+        width: 100%;
+    }
+
+    .hireUsLeftSide hr {
+        width: 100%;
+    }
+
+    .bottomLinkBarGrid {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -96,5 +165,95 @@
 
     .keyBenefitsCards {
         grid-template-columns: 1fr;
+    }
+
+    .whyFrontFeatures {
+        flex-direction: column;
+        max-width: 230px;
+        margin: auto;
+    }
+
+    .whyFrontFeatures div {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .whyFrontLine {
+        display: none;
+    }
+
+    .pricingGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .trusted div {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .trusted img {
+        width: 157px;
+    }
+
+    .hireUs {
+        padding: 15px;
+    }
+
+    .hireUsLeftSide {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hireUsHeadingContainer {
+        width: 100%;
+    }
+
+    .hireUsPortraitRow {
+        justify-content: center;
+    }
+
+    .hireUsFormGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .hireUsFormContainer textarea {
+        grid-column: unset;
+    }
+
+    #privacyPolicy2 {
+        display: none;
+    }
+
+    .bottomLinkBarGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .bottomLinkBar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #frontLogoBottom {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .bottomLinkBar h4 {
+        margin: 0;
+    }
+
+    .footerLinkBar {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    #country {
+        display: block;
+        margin: auto;
+        margin-top: 40px;
     }
 }
